@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/* Headings */
+.big-heading{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Title section */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0px 18px;
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+/* Download Buttons */
+
+.btn {
+    margin-top: 2rem;
+}
+
+/* title Image */
+.timage {
+    width: 55%;
+    transform: rotate(25deg);
+    /* margin: 9%; */
+    position: absolute;
+    right: 30%;
+}
+
+.img-pos {
+    position: relative;
+    /* width: 60%; */
+}
+
+/* Features */
+#features {
+    z-index: 1;
+    position: relative;
+}
+
+.feature-logo {
+    width: 100%;
+}
+
+.Feature-box {
+    padding: 5%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 15px 50px;
+}
+
+
+
+/* Pricing Section */
+#pricing {
+    padding: 8%;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-card-header{
+    font-size: 1.5rem;
+}
+
+.pricing-col {
+    padding: 2%;
+}
+
+/* Media Queries */
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .timage {
+        position: static;
+        margin: 10%;
+        /* transform: rotate(0); */
+    }
+
+}
+
+/* Cta Section */
+#cta {
+  font-family: Montserrat;
+}
+
+.cta-btn {
+    margin: 0.8rem;
+}
+
+/* Footer */
+#footer {
+    background-color: #fff;
+    padding: 3%;
+}
+
+.footer-logo {
+    margin: 0.6rem;
+}
